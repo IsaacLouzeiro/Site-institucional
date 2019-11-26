@@ -1,0 +1,1143 @@
+﻿ * { margin: 0; padding: 0; }
+body { font: 1em arial, "Helvetica", sans-serif; }
+@media screen and (max-width: 959px) {
+	body {
+		min-width: 300px;
+	}
+
+	.menu_box {/* MENU BOX BACKGROUND*/
+		width: 100%;
+		height: 450px;
+		position: relative;
+		background: url(../imagens/img1.jpg) center center no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	#container img {
+		width: 140%;
+		height: 450px;
+		display: block;
+		position:absolute;
+		margin-left: 100%;
+		z-index: 0;
+
+		-webkit-transition: margin-left 1000ms ease-out;
+		-moz-transition: margin-left 1000ms ease-out;
+		-o-transition: margin-left 1000ms ease-out;
+		transition: margin-left 1000ms ease-out;
+	}
+
+
+	.ativa {
+		margin-left: 0%;
+	}
+
+	/*//FIM MENU BACKGROUND*/
+
+	/*TOPO DO SITE 'CABECALHO'*/
+	.logo_e_nome {
+		text-align: center;
+		color: #fff;
+		position: relative;
+		top: 140px;
+		font-size: 1.3em;
+		z-index: 10000;
+	}
+
+	.logo_e_nome h2 {
+		margin-top: 20px;
+		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+		
+	}
+
+	.logo {
+		width: 170px;
+	}/*//FIM TOPO DO SITE 'CABECALHO'*/
+
+	/* ESCOLHER A LINGUAGEM DO SITE */
+	#caixa_de_navegacao {
+		display: none;
+	}
+
+	#box_linguagem {
+		position: fixed;
+		top: 9px;
+		left: 80%;
+		text-align: center;
+		/* border: 1px solid; */
+		z-index: 100000000000;
+	}
+
+	.bandeira {
+		width: 35px;
+		box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	.bandeira_selecionada {
+		border: 4px #fff solid;
+	}/*FIM ESCOLHER A LINGUAGEM DO SITE */
+
+	.menu_mobile {/* MENU MOBILE */
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		text-align: center;
+		z-index: 10000000;
+	}
+
+	.menu_mobile a {
+		text-decoration: none;
+		font-size: 1em;
+		display: block;
+		position: relative;
+		padding: 17px 5px 15px 5px;
+		border-bottom: 1.5px solid #f2f2f2;
+		color: #000;
+		width: 200px;
+		background-color: rgba(255, 255, 255, 0.9);
+		z-index: 100000px;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	#myLinks {
+		display: none;
+	}
+
+	#menuu {
+		width: 30px;
+		position: relative;
+		left: 10px;
+
+	}
+	#menuu:hover{
+		cursor: pointer;
+	}
+
+	#menu {
+		background-color: rgba(17, 29, 59, 0.9);
+		width: 100%;
+		text-align: left;
+		border-bottom: none;
+	}
+
+	#menu:hover {
+		padding: none;
+		color: #000;
+		cursor: default;
+		background-color: none;
+	}
+
+	.menu_mobile a:hover {
+		padding: 17px 5px 15px 5px;
+		color: #fff;
+		background-color: rgba(17, 29, 59, 0.9);
+	}
+	/* FIM MENU MOBILE */
+
+	.menu_fixo {
+		display: none;
+	}
+
+	.top_logo_menu{/* LOGO DO MENU FIXO*/
+		display: none;
+	}
+
+	.icon_cabecalho {
+		width: 23px;
+		position: relative;
+	}/*//FIM BLOCO DO CONTATO */
+
+	/* SECAO BOX */
+	#box_secao1 {/* PÁGINA INICIAL */
+		width: 100%;
+		height: 500px;
+		background: url(../imagens/img4.jpg) no-repeat top center;
+		background-size: cover;
+		text-align: center;
+	}
+	#box_secao1 p {
+		color: #fff;
+		font-size: 2.7em;
+		position: relative;
+		top: 250px;
+		font-family: 'roboto', sans-serif;
+		
+	}
+
+	#box_secao3 {/* PÁGINA QUEM SOMOS */
+		width: 100%;
+		height: auto;
+		background: url(../imagens/img6.jpg) no-repeat top center;
+		background-size: 100% 800px;
+		text-align: left;
+		font-size: 140%;
+		color: #000;
+	}
+	#box_secao3-1 {/* PÁGINA QUEM SOMOS ''BACKGROUND DOS INTEGRANTES'' */
+		width: 90%;
+		height: auto;
+		padding: 0 5%;
+		background-image: radial-gradient(#fff, #f2f2f2, #e6e6e6);
+		background-size: cover;
+		text-align: left;
+		font-size: 1em;
+		color: #000;
+	}
+	#box_secao4 {/* PÁGINA CONTATO */
+		width: 100%;
+		height: auto;
+		text-align: center;
+		background-image: radial-gradient(#fff, #f2f2f2, #e6e6e6);
+		background-size: cover;
+		font-size: 1.3em;
+		color: #000;
+		padding: 10px 0;
+	}/*//FIM SECAO BOX */
+
+	#box_secao2 {/* PÁGINA O QUE FAZEMOS */
+		width: 100%;
+		height: 500px;
+		margin: 0 auto;
+		background-color: #F5F5F7;
+		text-align: justify;
+		font-size: 1.3em;
+	}
+	.cor_do_fundo2 {
+		width: 100%;
+		height: 500px;
+		background-color: rgb(245, 245, 247);
+	}
+
+		/* BOX O QUE FAZEMOS */
+	#o_que_fazemos_section {
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+		position: relative;
+		top: 50px;
+	}
+	#o_que_fazemos_section h1 {
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+		font-size: 150%;
+		font-family: 'roboto', sans-serif;
+		color: #262626;
+	}
+	#o_que_fazemos_section p {
+		line-height: 30px;
+		font-size: 90%;
+		padding: 20px;
+		display: block;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#o_que_fazemos_section #en {
+		line-height: 35px;
+	}
+
+	#mobile_img_OQ_fzm {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		text-align: right;
+	}
+
+	#mobile_img_OQ_fzm img {
+		width: 50%;
+		position: relative;
+		top: 1em;
+		display: inline-block;
+	}/*//FIM  BOX O QUE FAZEMOS */
+
+	/*BOX CONTATO*/
+	#flyer {
+		width: 270px;
+		height: 440px;
+		background: url(../imagens/flyer.png) top center no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+		display: inline-block;
+	}
+
+	#formulario {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+		text-align: center;
+		/* border: 1px solid; */
+		display: inline-block;
+	}
+	#formulario input {
+		border: 1px solid #ccc;
+		margin: 4px 4px 4px 4px;
+		padding: 2px 2px 2px 10px;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+		width: 90%;
+		max-width: 400px;
+		height: 25px;
+		font-size: .9em;
+	}
+	#formulario label {
+		margin: 10px 0 0 0;
+		padding: 2px;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1em;
+		color: #fff;
+		text-shadow: 1px 1px 5px #000;
+	}
+	#comentario {
+		margin: 10px 0;
+		padding: 5px;
+		width: 90%;
+		max-width: 400px;
+		height: 110px;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	}
+	#button_submit,
+	#button_reset {
+		color: #fff;
+		font-weight: bold;
+		border: none;
+		padding: 10px 25px;
+		cursor: pointer;
+	}
+	#button_submit:hover { border: 3px solid #1f4720; padding: 7px 22px; }
+	#button_reset:hover { border: 3px solid #aa1409; padding: 7px 22px; }
+	#button_submit { background-color: #4CAF50; }
+
+	#button_reset { background-color: #f44336; }
+
+	#contatos_section h1, #formulario h1 {
+		text-align: center;
+		font-family: 'roboto', sans-serif;
+		color: #262626;
+		margin-bottom: -15px;
+		margin-top: 10px;
+		font-size: 110%;
+		width: 100%;
+		color: #fff;
+		text-shadow: 1px 1px 5px #000;
+	}
+	.icon_Contato, #contatos_section h2{
+		display: inline-block;
+		margin: 10px 0 0 0;
+		font-family: 'Roboto', sans-serif;
+	}
+	.icon_Contato {
+		width: 30px;
+		margin: 0 4px 0 10px;
+	}
+	#contatos_section h2 {
+		position: relative;
+		bottom: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 80%;
+		color: #fff;
+		text-shadow: 1px 1px 5px #000;
+	}
+	/*//FIM BOX CONTATO*/
+
+	/* BOX QUEM SOMOS */
+	#quem_somos_section {
+		width: 90%;
+		position: relative;
+		text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.1);
+		top: 40px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 10px 100px 10px;
+	}
+	#quem_somos_section h1 {
+		font-size: 155%;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		text-align: center;
+	}
+	#quem_somos_section p {
+		width: 100%;
+		font-size: 95%;
+		padding: 10px 0 0 0;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		text-align: justify;
+	}
+	#integrantes_section {
+		text-align: center;
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+		width: 100%;
+	}
+
+	input[type=button] { /*BOTOES MISSAO VISAO VALORES QUEM SOMOS*/
+		padding: 15px 25px;
+		margin: 5px;
+		width: 100%;
+		font-size: .9em;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	#box_botao_mvv {
+		position: relative;
+		top: 28px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+	.fechar_M_V_V { /* BOTÃO DE FECHAR O BOX MISSAO VISAO VALORES */
+		color: #fff;
+		text-decoration: none;
+		font-size: 65%;
+		position: relative;
+	}
+
+	.paragrafo_M_V_V { /* PARAGRAFO DE MISSAO VISAO VALORES */
+		font-size: 100%;
+	}
+
+	/*MISSÃO BOX HOVER E CAIXA FLUTUANTE*/
+	#missao {
+		background-color: #192a56;
+		border: none;
+	}
+	#caixa_flutuante_missao {
+		background-color: rgba(0, 0, 0, 0.9);
+		position: relative;
+		bottom: 100px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 15px;
+		border: 5px solid #192a56;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	/*VISAO BOX HOVER E CAIXA FLUTUANTE*/
+	#visao {
+		background-color: #40739e;
+		border: none;
+	}
+	#caixa_flutuante_visao {
+		background-color: rgba(0, 0, 0, 0.9);
+		position: relative;
+		bottom: 35px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 15px;
+		border: 5px solid #40739e;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	/*VALORES BOX HOVER E CAIXA FLUTUANTE*/
+	#valores {
+		background-color: #2f3640;
+		border: none;
+	}
+
+	#caixa_flutuante_valores {
+		background-color: rgba(0, 0, 0, 0.9);
+		position: relative;
+		top: 27px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 15px;
+		max-width: 500px;
+		margin: 0 auto;
+		border: 5px solid #2f3640;
+	}
+
+	#missao:hover {
+		border: 2px solid #273c75; padding: 11px 23px; cursor: pointer;
+	}
+	#visao:hover {
+		border: 2px solid #487eb0; padding: 11px 23px; cursor: pointer;
+	}
+	#valores:hover {
+		border: 2px solid #353b48; padding: 11px 23px; cursor: pointer;
+	}
+
+	.box_dos_integrantes {/*INTEGRANTES E SUAS FUNÇÕES*/
+		width: 14em;
+		height: 15em;
+		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+		text-align: center;
+		padding: 7px 0;
+		margin-bottom: 3%;
+		display: inline-block;
+	}
+	.box_dos_integrantes figcaption { padding: 10px; margin-bottom: 10px; font-size: 105%; }
+	.img_dos_integrantes {
+		width: 92%;
+		height: 13em;
+	}
+	.cargos_integrantes {
+		width: 16em;
+		display: inline-block;
+	}
+	.cargos_integrantes p>a {
+		text-decoration: none;
+		color: #303030;
+		font-size: 1em;
+		display: inline-block;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}/*//FIM  BOX QUEM SOMOS */
+
+	/*FINAL DO SITE 'RODAPÉ'*/
+	.rodape {/*BOX*/
+		width: 100%;
+		height: 310px;
+		background-color: #060a14;
+		color: #fff;
+		position: relative;
+		text-align: center;
+		clear: both;
+	}/*//FIM BOX*/
+
+	.delimitacao {
+		width: 100%;
+		max-width: 1260px;
+		clear: both;
+		margin: 0 auto;
+	}
+
+	.rodape h1 { /*DIREITOS RESERVADOS 'TEXTO'*/ 
+		font-size: 1em;
+		position: relative;
+		top: 10px;
+		word-wrap: break-word;
+		line-height: 25px;
+	}
+
+
+	.menu_cabecalho{/*MENU CABEÇALHO*/
+		display: none;
+	}
+
+	.box_contato_cabecalho {/* BLOCO DO CONTATO RODAPÉ*/
+		display: inline-block;
+		position: relative;
+		top: 40px;
+		padding-left: 20px;
+		text-align: left;
+		margin: 0 auto;
+		width: 270px;
+	}
+	.box_contato_cabecalho h5 {
+		display: inline-block;
+		position: relative;
+		bottom: 5px;
+		font-size: 90%;
+		text-indent: 10px;
+	}
+
+	.box_contato_cabecalho h4 {
+		font-size: 110%;
+	}
+
+	.bottom_logo_menu { /*LOGO CABEÇALHO*/
+		width: 100px;
+		height: 90px;
+		position: relative;
+		top: 30px;
+	}/* FIM BLOCO DO CONTATO RODAPÉ*/
+	/*//FIM FINAL DO SITE 'RODAPÉ'*/
+
+ }
+
+@media screen and (min-width: 395px) and (max-width: 960px) { /* ALINHAR O RODAPÉ EM DISPOSITIVOS MÓVEIS GRANDES */
+	.rodape {
+		height: 250px;
+	}
+
+	.box_contato_cabecalho {
+		top: 60px;
+	}
+	.bottom_logo_menu {
+		top: 50px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+
+	.menu_box {/* MENU BOX BACKGROUND*/
+		width: 100%;
+		height: 450px;
+		position: relative;
+		background: url(../imagens/img1.jpg) center center no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	#container img {
+		width: 100%;
+		height: 450px;
+		position:absolute;
+		width:100%;
+		height:100%;
+		margin-left: 100%;
+		z-index: 0;
+
+		-webkit-transition: margin-left 1000ms ease-out;
+		-moz-transition: margin-left 1000ms ease-out;
+		-o-transition: margin-left 1000ms ease-out;
+		transition: margin-left 1000ms ease-out;
+	}
+
+
+	.ativa {
+		margin-left: 0%;
+	}
+
+	/*//FIM MENU BACKGROUND*/
+
+	/*TOPO DO SITE 'CABECALHO'*/
+	.logo_e_nome {
+		text-align: center;
+		color: #fff;
+		position: relative;
+		top: 140px;
+		font-size: 1.3em;
+		z-index: 10000;
+	}
+
+	.logo_e_nome h2 {
+		margin-top: 20px;
+		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+		
+	}
+
+	.logo {
+		width: 170px;
+	}/*//FIM TOPO DO SITE 'CABECALHO'*/
+
+	#box_linguagem {/* ESCOLHER A LINGUAGEM DO SITE */
+		position: fixed;
+		top: 8px;
+		left: 85%;
+		/* border: 1px solid; */
+		z-index: 100000000000;
+	}
+
+	.bandeira {
+		width: 35px;
+		box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	.bandeira_selecionada {
+		border: 4px #fff solid;
+	}/* FIM ESCOLHER A LINGUAGEM DO SITE */
+
+	.menu_fixo {/* MENU BARRA BRANCA */
+		width: 100%;
+		height: 50px;
+		position: fixed;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.9);
+		z-index: 10000000;
+		top: 10px;
+		border-bottom: 2px solid #ccc;
+		border-top: 1px solid #ccc;
+	}
+	.menu_fixo ul {
+		position: relative;
+		list-style-type: none;
+	}
+	.menu_fixo li {
+		display: inline-block;
+		position: relative;
+		bottom: 14px;
+		margin: 0 10px;
+	}
+	.menu_fixo a {
+		text-decoration: none;
+		font-size: 1em;
+		display: block;
+		padding: 5px 10px;
+		color: #000;
+	}
+
+	.menu_fixo a:hover {
+		padding: 10px 10px;
+		color: #fff;
+		background-color: rgba(17, 29, 59, 0.9);
+	}/* FIM MENU BARRA BRANCA */
+
+	.menu_mobile {
+		display: none;
+	}
+
+	.top_logo_menu{/* LOGO DO MENU FIXO*/
+		width: 35px;
+		height: 45px;
+		position: relative;
+		top: 22px;
+		background: url(../imagens/logo.png) no-repeat;
+		background-size: 35px;
+		/* border: 1px solid; */
+	}
+
+	#caixa_de_navegacao {/* MENUS BOX */
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+	}
+	.box_click {
+		width: 150px;
+		height: 150px;
+		display: inline-block;
+		position: relative;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+		margin: 1.8% 4.5%;
+	}
+	.icon_pagina_inicial {
+		background: url(../imagens/icone_home.png) no-repeat center center;
+		background-size: 75%;
+		width: 150px;
+		height: 150px;
+	}
+	.icon_o_que_fazemos {
+		background: url(../imagens/icone_o_que_fazemos.png) no-repeat center center;
+		background-size: 70%;
+		width: 150px;
+		height: 150px;
+	}
+	.icon_quem_somos {
+		background: url(../imagens/icone_quem_somos.png) no-repeat center center;
+		background-size: 80%;
+		width: 150px;
+		height: 150px;
+	}
+	.icon_contato {
+		background: url(../imagens/icone_contato.png) no-repeat center center;
+		background-size: 70%;
+		width: 150px;
+		height: 150px;
+	}
+	.voce_esta_aqui {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	.voce_esta_aqui:hover {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+	.voce_esta_aqui p {
+		display: block;
+		position: absolute;
+		margin: 40px 2px;
+		font-size: 1.9em;
+		font-weight: bold;
+		color: #fff;
+		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	}
+	.centralizar {
+		width: 100%;
+		height: 200px;
+		text-align: center;
+	}/*//FIM MENUS BOX */	
+
+	/* SECAO BOX */
+	#box_secao1 {/* PÁGINA INICIAL */
+		width: 100%;
+		height: 500px;
+		background: url(../imagens/img4.jpg) no-repeat top center;
+		background-size: cover;
+		text-align: center;
+	}
+	#box_secao1 p {
+		color: #fff;
+		font-size: 2.7em;
+		position: relative;
+		top: 250px;
+		font-family: 'roboto', sans-serif;
+		
+	}
+
+	#box_secao3 {/* PÁGINA QUEM SOMOS */
+		width: 100%;
+		height: 540px;
+		background: url(../imagens/img6.jpg) no-repeat center center;
+		background-size: 100% 560px;
+		text-align: left;
+		font-size: 1.3em;
+		color: #000;
+	}
+	#box_secao3-1 {/* PÁGINA QUEM SOMOS ''BACKGROUND DOS INTEGRANTES'' */
+		width: 90%;
+		height: auto;
+		padding: 0 5%;
+		background-image: radial-gradient(#fff, #f2f2f2, #e6e6e6);
+		background-size: cover;
+		text-align: left;
+		font-size: 1em;
+		color: #000;
+	}
+	#box_secao4 {/* PÁGINA CONTATO */
+		width: 100%;
+		height: 500px;
+		text-align: center;
+		background-image: radial-gradient(#fff, #f2f2f2, #e6e6e6);
+		background-size: cover;
+		font-size: 1.3em;
+		color: #000;
+	}/*//FIM SECAO BOX */
+
+	#box_secao2 {/* PÁGINA O QUE FAZEMOS */
+		width: 100%;
+		height: 500px;
+		max-width: 1300px;
+		margin: 0 auto;
+		background: #F5F5F7 url(../imagens/img5.jpg) no-repeat center center;
+		background-size: cover;
+		text-align: left;
+		font-size: 1.3em;
+		color: #000;
+	}
+	.cor_do_fundo2 {
+		width: 100%;
+		height: 500px;
+		background-color: rgb(245, 245, 247);
+	}/* FIM PÁGINA O QUE FAZEMOS */
+
+		/* BOX O QUE FAZEMOS */
+	#o_que_fazemos_section {
+		width: 50%;
+		max-width: 550px;
+		position: relative;
+		top: 140px;
+		left: 48%;
+	}
+	#o_que_fazemos_section h1 {
+		padding: 20px 0;
+		font-size: 1.5em;
+		font-family: 'roboto', sans-serif;
+		color: #262626;
+	}
+	#o_que_fazemos_section p {
+		line-height: 30px;
+		font-size: 1em;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#mobile_img_OQ_fzm {
+		display: none;
+	}/*//FIM  BOX O QUE FAZEMOS */
+
+	/*BOX CONTATO*/
+	#flyer {
+		width: 310px;
+		height: 440px;
+		background: url(../imagens/flyer.png) top center no-repeat;
+		background-size: 100% 100%;
+		position: relative;
+		top: 30px;
+		display: inline-block;
+		margin: 0 0 0 20px;
+	}
+
+	#formulario {
+		width: 350px;
+		margin: 0 20px 0 0;
+		text-align: center;
+		position: relative;
+		bottom: 10px;
+		display: inline-block;
+	}
+	#formulario input {
+		border: 1px solid #ccc;
+		margin-left: 4px;
+		margin: 4px 0;
+		padding: 2px 2px 2px 10px;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+		width: 300px;
+		height: 25px;
+		font-size: .9em;
+	}
+	#formulario label {
+		margin: 10px 0 0 0;
+		padding: 2px;
+		color: #666666;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1em;
+	}
+	#comentario {
+		margin: 10px 0;
+		padding: 5px;
+		width: 300px;
+		height: 110px;
+		border: 1px solid #ccc;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	}
+	#button_submit,
+	#button_reset {
+		color: #fff;
+		font-weight: bold;
+		border: none;
+		padding: 10px 25px;
+		cursor: pointer;
+	}
+	#button_submit:hover { border: 3px solid #1f4720; padding: 7px 22px; }
+	#button_reset:hover { border: 3px solid #aa1409; padding: 7px 22px; }
+	#button_submit { background-color: #4CAF50; }
+
+	#button_reset { background-color: #f44336; }
+
+	#contatos_section h1, #formulario h1 {
+		text-align: center;
+		font-family: 'roboto', sans-serif;
+		color: #262626;
+		margin-bottom: -10px;
+	}
+	.icon_Contato, #contatos_section h2{
+		display: inline-block;
+		font-size: .9em;
+		margin: 10px 0 0 0;
+		font-family: 'Roboto', sans-serif;
+	}
+	.icon_Contato {
+		width: 40px;
+		margin-right: 10px;
+	}
+	#contatos_section h2 {
+		position: relative;
+		bottom: 10px;
+		font-family: 'Roboto', sans-serif;
+	}
+	#contatos_section h1 { position: relative; right: 35px; }/*//FIM BOX CONTATO*/
+
+	/* BOX QUEM SOMOS */
+	#quem_somos_section {
+		width: 800px;
+		max-width: 800px;
+		position: relative;
+		text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.1);
+		top: 40px;
+		margin: 0 auto;
+	}
+	#quem_somos_section h1 {
+		padding: 20px 0;
+		font-size: 155%;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		text-align: center;
+	}
+	#quem_somos_section p {
+		line-height: 30px;
+		font-size: 95%;
+		padding: 10px 0 0 0;
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		text-align: justify;
+	}
+	#integrantes_section {
+		padding: 2% 5%;
+		text-align: center;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	input[type=button] { /*BOTOES MISSAO VISAO VALORES QUEM SOMOS*/
+		padding: 15px 25px;
+		margin: 20px;
+		font-size: .9em;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid;
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	#box_botao_mvv {
+		position: relative;
+		top: 30px;
+		width: 455px;
+		margin: 0 auto;
+	}
+
+	.fechar_M_V_V { /* BOTÃO DE FECHAR O BOX MISSAO VISAO VALORES */
+		color: #fff;
+		text-decoration: none;
+		font-size: 80%;
+		position: relative;
+	}
+
+	.paragrafo_M_V_V { /* PARAGRAFO DE MISSAO VISAO VALORES */
+		font-size: 100%;
+	}
+
+	/*MISSÃO BOX HOVER E CAIXA FLUTUANTE*/
+	#missao {
+		background-color: #192a56;
+		border: none;
+	}
+	#caixa_flutuante_missao {
+		width: 700px;
+		background-color: rgba(0, 0, 0, 0.9);
+		position: absolute;
+		bottom: 45px;
+		left: 30px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 20px 20px 20px;
+		border: 5px solid #192a56;
+	}
+
+	/*VISAO BOX HOVER E CAIXA FLUTUANTE*/
+	#visao {
+		background-color: #40739e;
+		border: none;
+	}
+	#caixa_flutuante_visao {
+		width: 700px;
+		background-color: rgba(0, 0, 0, 0.9);
+		position: absolute;
+		bottom: 45px;
+		left: 30px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 20px 20px 20px;
+		border: 5px solid #40739e;
+	}
+
+	/*VALORES BOX HOVER E CAIXA FLUTUANTE*/
+	#valores {
+		background-color: #2f3640;
+		border: none;
+	}
+
+	#caixa_flutuante_valores {
+		width: 700px;
+		background-color: rgba(0, 0, 0, 0.9);
+		position: absolute;
+		bottom: 45px;
+		left: 30px;
+		display: none;
+		z-index: 100000000;
+		text-align: right;
+		padding: 5px 20px 20px 20px;
+		border: 5px solid #2f3640;
+	}
+
+
+	#missao:hover {
+		border: 2px solid #273c75; padding: 11px 23px; cursor: pointer;
+	}
+	#visao:hover {
+		border: 2px solid #487eb0; padding: 11px 23px; cursor: pointer;
+	}
+	#valores:hover {
+		border: 2px solid #353b48; padding: 11px 23px; cursor: pointer;
+	}
+
+	.box_dos_integrantes {/*INTEGRANTES E SUAS FUNÇÕES*/
+		width: 14em;
+		height: 16em;
+		box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+		text-align: center;
+		padding: 7px 0;
+		margin-bottom: 3%;
+		display: inline-block;
+	}
+	.box_dos_integrantes figcaption { padding: 5px 10px 10px 10px; font-size: 105%; }
+	.img_dos_integrantes {
+		width: 90%;
+		height: 14em;
+	}
+	.cargos_integrantes {
+		width: 16em;
+		display: inline-block;
+	}
+	.cargos_integrantes p>a {
+		text-decoration: none;
+		color: #303030;
+		font-size: 1em;
+		display: inline-block;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+	}/*//FIM  BOX QUEM SOMOS */
+
+	/*FINAL DO SITE 'RODAPÉ'*/
+	.rodape {/*BOX*/
+		width: 100%;
+		height: 310px;
+		background-color: #060a14;
+		color: #fff;
+		position: relative;
+		text-align: center;
+		clear: both;
+	}/*//FIM BOX*/
+
+	.delimitacao {
+		width: 100%;
+		max-width: 1260px;
+		clear: both;
+		margin: 0 auto;
+	}
+
+	.bottom_logo_menu { /*LOGO CABECALHO RODAPÉ*/
+		width: 140px;
+		position: relative;
+		top: 70px;
+	}
+
+	.rodape h1 { /*DIREITOS RESERVADOS 'TEXTO'*/ 
+		font-size: 1em;
+		position: relative;
+		top: 30px;
+	}
+
+	.menu_cabecalho ul {/* MENU RODAPÉ */
+		position: relative;
+		top: 115px;
+		list-style-type: none;
+	}
+	.menu_cabecalho li {
+		display: inline-block;
+		margin: 0 3px;
+	}
+	.menu_cabecalho a {
+		text-decoration: none;
+		color: #fff;
+		font-size: .9em;
+		padding: 5px 10px;
+	}
+
+	.menu_cabecalho a:hover {
+		padding: 5px 10px;
+		color: #000;
+		background-color: #fff;
+	}/*//FIM MENU RODAPÉ */
+
+	.box_contato_cabecalho {/* BLOCO DO CONTATO RODAPÉ*/
+		display: block;
+		position: relative;
+		bottom: 70px;
+		right: 65px;
+		text-align: left;
+		float: right;
+	}
+	.box_contato_cabecalho h5 {
+		display: inline-block;
+		position: relative;
+		bottom: 5px;
+		margin-left: 5px;
+	}
+	.icon_cabecalho {
+		width: 23px;
+		position: relative;
+	}/*//FIM BLOCO DO CONTATO RODAPÉ */
+	/*//FIM FINAL DO SITE 'RODAPÉ'*/
+}
