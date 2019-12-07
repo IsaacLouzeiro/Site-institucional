@@ -9,9 +9,9 @@ Esse site foi todo criado por mim, com a finalidade de apresentar o TCM (Trabalh
 
 This website has be created by me, for the propose to present a module completion work in techinical course of systems development 1º Semester, and get experience on elapse this project.
 
-Para a criação, foi utilizado HTML5, CSS3 e Javascript puro, sem nenhum Framework.
+Para a criação, foi utilizado HTML5, CSS3 e Javascript puro.
 
-For the creation, was used HTML5, CSS3 and Javascript pure, without any Framework.
+For the creation, was used HTML5, CSS3 and Javascript pure.
 
 
 link para o site, a baixo
