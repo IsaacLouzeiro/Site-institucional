@@ -1,5 +1,5 @@
-# Site-institucional
-# Institutional-website
+# The Finders Corporation site-institucional
+# The Finders Corporation institutional-website
 
 Site institucional, projeto de conclusão do primeiro módulo técnico.
 
